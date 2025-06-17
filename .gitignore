@@ -73,3 +73,9 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore unnecessary files for Unreal Engine projects
+Intermediate/
+DerivedDataCache/
+Binaries/
+Build/
