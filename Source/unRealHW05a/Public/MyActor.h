@@ -25,4 +25,13 @@ public:
 
 	int Rand();
 	double Distance(double x, double y);
+	void move();
+
+public:
+	double xd = 0.0;
+	double yd = 0.0;
+	int maxNum = 0;
+	int eventNum = 0;
+	float timeMove = 2.0f;
+	float timeSum = 0.0f;
 };
